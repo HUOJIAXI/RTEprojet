@@ -1,2 +1,2 @@
 # This is the project of course RTE
-# RTEprojet
+# Projet6: pendulum inversé
