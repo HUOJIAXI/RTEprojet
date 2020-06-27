@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.845"
+    ComputedModelVersion    "1.846"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -54,7 +54,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [290.0, 132.0, 1150.0, 900.0]
+      Location		      [290.0, 131.0, 1150.0, 900.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -91,18 +91,18 @@ Model {
 	  IsActive		  [0]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "19"
+	  LoadSaveID		  "57"
 	  Extents		  [1112.0, 671.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-291.0, -245.5]
-	  SceneRectInView	  [-291.0, -245.5, 1112.0, 671.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [340.26510791366894, 220.98687050359706]
+	  SceneRectInView	  [340.26510791366894, 220.98687050359706, 889.6, 536.8]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3"
+	  LoadSaveID		  "19"
 	  Extents		  [1112.0, 671.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [-291.0, -245.5]
@@ -113,22 +113,22 @@ Model {
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "10"
+	  LoadSaveID		  "3"
 	  Extents		  [1112.0, 671.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-223.0, -91.5]
-	  SceneRectInView	  [-223.0, -91.5, 1112.0, 671.0]
+	  Offset		  [-291.0, -245.5]
+	  SceneRectInView	  [-291.0, -245.5, 1112.0, 671.0]
 	}
 	Object {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "57"
+	  LoadSaveID		  "10"
 	  Extents		  [1112.0, 671.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [4.3499999999997954, 172.22500000000002]
-	  SceneRectInView	  [4.3499999999997954, 172.22500000000002, 889.6, 536.8]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-223.0, -91.5]
+	  SceneRectInView	  [-223.0, -91.5, 1112.0, 671.0]
 	}
 	PropName		"EditorsInfo"
       }
@@ -168,9 +168,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "huojiaxi"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Jun 25 13:29:19 2020"
-  RTWModifiedTimeStamp	  514992556
-  ModelVersionFormat	  "1.%<AutoIncrement:845>"
+  LastModifiedDate	  "Sat Jun 27 12:00:47 2020"
+  RTWModifiedTimeStamp	  515111470
+  ModelVersionFormat	  "1.%<AutoIncrement:846>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -1268,7 +1268,7 @@ Model {
   }
   System {
     Name		    "PendulumInverseSIMU_L_x"
-    Location		    [290, 132, 1440, 1032]
+    Location		    [290, 131, 1440, 1031]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1472,8 +1472,8 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"observer"
-	Location		[307, 47, 1457, 947]
-	Open			on
+	Location		[290, 132, 1440, 1032]
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1527,8 +1527,8 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Subsystem"
-	    Location		    [307, 47, 1457, 947]
-	    Open		    off
+	    Location		    [290, 131, 1440, 1031]
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -1548,7 +1548,7 @@ Model {
 	      BlockType		      Inport
 	      Name		      "u"
 	      SID		      "58"
-	      Position		      [400, 228, 430, 242]
+	      Position		      [490, 428, 520, 442]
 	      ZOrder		      106
 	      IconDisplay	      "Port number"
 	    }
@@ -1659,7 +1659,7 @@ Model {
 	      ZOrder		      4
 	      SrcBlock		      "u"
 	      SrcPort		      1
-	      Points		      [55, 0; 0, 275]
+	      Points		      [5, 0]
 	      DstBlock		      "Mux"
 	      DstPort		      1
 	    }

@@ -84,8 +84,8 @@ D_Obs=[0 0 0;0 0 0;0 0 0;0 0 0];
 % D_Obs=[0 0;0 0;0 0;0 0];
 Observer.IC=[0;0;0;0];
 
-eig = [-1;-1.1;-1.2;-1.3];
-K = place (A,B,eig)
+eig_control = [-1;-1.1;-1.2;-1.3];
+K = place (A,B,eig_control)
 
 
 

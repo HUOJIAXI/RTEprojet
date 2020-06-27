@@ -36,13 +36,13 @@ a=2; % amplitude
 omega=2; % pulsation
 
 %% Select order of derivative
-n=2; % order of differentiator n+1
-k=1; % order of derivative estimation (k<=n !!)
+n=3; % order of differentiator n+1
+k=2; % order of derivative estimation (k<=n !!)
 L=omega^n; % Lipchitz constant 
 %% Differentiator parameters
-theta=2;% 0.5 2 10
+theta=10;% 0.5 2 10
 %gain=[1 3]*10;
-gain=[1 3 1]*10; 
+% gain=[1 3 1]*10; 
 % gain=L_Matlab';
 % gain=[1 5 7 2]*10;
 % gain=[1 3 3 1]*10;
